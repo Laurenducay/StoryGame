@@ -23,3 +23,5 @@ let kantoText = "Alright! Let's head to the Kanto Region.";
 let charmander = "Yay!! Charmander has been chosen.";
 let squirtle = "Yay!! Squirtle has been chosen.";
 
+let battleChoice;
+

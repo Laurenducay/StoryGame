@@ -10,6 +10,23 @@ if(pathChoice == "Yes" || pathChoice == "yes") {
     pathChoice2 = prompt("Do you wish to battle?");
     if(pathChoice2 == "Yes" || pathChoice2 == "yes") {
         alert(pathTextY)
+        battleChoice = prompt("Do you want to 1. attack or 2. dodge?");
+        if(battleChoice == 1) {
+            alert(battle);
+            alert(endText3);
+        }
+        else if(battleChoice == 2) {
+            let b = true;
+            while(b) {
+                alert("You dodged Mimikyu!");
+                battleChoice = prompt("Do you want to 1. attack or 2. dodge?")
+                if(battleChoice == 1) {
+                    alert(battle);
+                    alert(endText3);
+                    b = false;
+                }
+            }
+        }
     }
     else if(pathChoice2 == "No" || pathChoice2 == "no") {
         alert(pathTextN)
