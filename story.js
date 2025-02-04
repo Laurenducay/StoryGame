@@ -8,7 +8,7 @@ pathChoice = prompt("Will you try to capture a wild Mimikyu?");
 if(pathChoice == "Yes" || pathChoice == "yes") {
     alert(pathText1);
     pathChoice2 = prompt("Do you wish to battle?");
-    if(pathChoice2 == "Yes") {
+    if(pathChoice2 == "Yes" || pathChoice2 == "yes") {
         alert(pathTextY)
     }
     else if(pathChoice2 == "No" || pathChoice2 == "no") {
